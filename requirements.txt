@@ -1,3 +1,2 @@
-rdflib>=3.2.3
-rdfextras>=0.1
+rdflib>=3.4.0
 SPARQLWrapper>=1.5.1
