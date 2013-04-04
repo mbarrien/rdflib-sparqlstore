@@ -1,4 +1,3 @@
-
 RDFLib SPARQLstore
 ==================
 
@@ -37,8 +36,8 @@ updates can be applied to an existing endpoint / store:
 
     import rdflib
     g = rdflib.ConjunctiveGraph('SPARQLUpdateStore')
-    g.open("http://localhost:3030/dataset/sparql",
-           "http://localhost:3030/dataset/update")
+    g.open(("http://localhost:3030/dataset/sparql",
+            "http://localhost:3030/dataset/update"))
 
 
 If the store object is explicitly created with the ``context_aware`` keyword
